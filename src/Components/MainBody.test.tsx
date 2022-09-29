@@ -5,8 +5,6 @@ import cats from "../assets/cats.jpg";
 import chubaka from "../assets/chubaka.jpg";
 import {fireEvent} from "@testing-library/react";
 
-;
-
 
 it('Renders properly', () => {
     const component = renderer.create(
