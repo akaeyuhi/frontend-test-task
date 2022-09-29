@@ -7,7 +7,7 @@ export default function MainBody(props: any) {
     const [timer, setTimer] = useState('');
 
     useEffect(() => {
-        const time = 10000 * 0.52;
+        const time = 60000 * 0.52;
         const localTimer = setInterval(() => button.current?.click(), time);
         setTimer(localTimer + '');
     }, []);
