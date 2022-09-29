@@ -9,10 +9,12 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <LeftPanel/>
-        <MainBody/>
-        <RightPanel/>
-        <Footer/>
+        <div className="main">
+          <LeftPanel/>
+          <MainBody/>
+          <RightPanel/>
+        </div>
+      <Footer/>
     </div>
   );
 }
