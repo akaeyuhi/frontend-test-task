@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer';
 import Header from './Header';
-import cats from "./assets/cats.jpg";
+import cats from "../assets/cats.jpg";
 
 it('Renders properly', () => {
     const component = renderer.create(

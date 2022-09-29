@@ -12,9 +12,6 @@ it('Renders properly', () => {
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
-
-    tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
 });
 
 it('Click invokes the func', () => {
