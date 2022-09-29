@@ -1,7 +1,14 @@
 import React from "react";
 
-export default function RightPanel() {
-    return <div className="right-panel">
+interface Props {
+    image: string
+}
+
+
+export default function RightPanel(props: Props) {
+    return <div className="right-panel" style={{
+        backgroundImage: `url("${props.image}")`
+    }}>
         <p>Right Panel</p>
     </div>
 }
